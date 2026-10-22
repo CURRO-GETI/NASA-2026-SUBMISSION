@@ -1,0 +1,11 @@
+Model Information:
+* title:	NASA Curiosity (Clean)
+* source:	https://sketchfab.com/3d-models/nasa-curiosity-clean-0696a383f3e841d2b5c7636ee8a58aba
+* author:	Thomas Flynn (https://sketchfab.com/nebulousflynn)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "NASA Curiosity (Clean)" (https://sketchfab.com/3d-models/nasa-curiosity-clean-0696a383f3e841d2b5c7636ee8a58aba) by Thomas Flynn (https://sketchfab.com/nebulousflynn) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

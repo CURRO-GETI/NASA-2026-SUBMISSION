@@ -1,0 +1,11 @@
+Model Information:
+* title:	Realistic- Earth- Planet
+* source:	https://sketchfab.com/3d-models/realistic-earth-planet-072ccdc6820c4cb698349d9b71089269
+* author:	pixelmotion4096 (https://sketchfab.com/pixelmotion4096)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Realistic- Earth- Planet" (https://sketchfab.com/3d-models/realistic-earth-planet-072ccdc6820c4cb698349d9b71089269) by pixelmotion4096 (https://sketchfab.com/pixelmotion4096) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: 9a1a58183a986974083f7f7a89305d35
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 715df9372183c47e389bb6e19fbc3b52, type: 3}
+  editorImportSettings:
+    generateSecondaryUVSet: 0
+  importSettings:
+    nodeNameMethod: 1
+    animationMethod: 2
+    generateMipMaps: 1
+    texturesReadable: 0
+    defaultMinFilterMode: 9729
+    defaultMagFilterMode: 9729
+    anisotropicFilterLevel: 1
+  instantiationSettings:
+    mask: -1
+    layer: 0
+    skinUpdateWhenOffscreen: 1
+    lightIntensityFactor: 1
+    sceneObjectCreation: 2
+  assetDependencies:
+  - type: 0
+    originalUri: Assets\space_shuttle_nasa\scene.bin
+    assetPath: Assets\space_shuttle_nasa\scene.bin
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\vehicle_generic_smallspecmap_PRIMARY_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\vehicle_generic_smallspecmap_PRIMARY_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\vehicle_generic_smallspecmap_PRIMARY_specularf0.png
+    assetPath: Assets\space_shuttle_nasa\textures\vehicle_generic_smallspecmap_PRIMARY_specularf0.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_p3_t_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_p3_t_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_e4_t_PRIMARY_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_e4_t_PRIMARY_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_e4_t_PRIMARY_specularf0.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_e4_t_PRIMARY_specularf0.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.015_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.015_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_c15_t_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_c15_t_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.032_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.032_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_e4_t_normal.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_e4_t_normal.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.033_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.033_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_m1_t_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_m1_t_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_m1_t_specularf0.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_m1_t_specularf0.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.035_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.035_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\nozze_in_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\nozze_in_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.036_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.036_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.026_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.026_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.020_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.020_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.018_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.018_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.024_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.024_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.008_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.008_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.016_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.016_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.030_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.030_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.002_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.002_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.028_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.028_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.021_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.021_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.001_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.001_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.022_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.022_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.027_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.027_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.011_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.011_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.012_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.012_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.010_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.010_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.014_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.014_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.004_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.004_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.005_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.005_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.025_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.025_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_c16_t_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_c16_t_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.023_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.023_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.019_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.019_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.003_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.003_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.013_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.013_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.009_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.009_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\Material.007_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\Material.007_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_c3_t_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_c3_t_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_g6_t_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_g6_t_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_g6_t_specularf0.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_g6_t_specularf0.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\black.001_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\black.001_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\black.001_specularf0.png
+    assetPath: Assets\space_shuttle_nasa\textures\black.001_specularf0.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\generic_glass_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\generic_glass_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_p4_t_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_p4_t_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\script_rt_dials_lazer_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\script_rt_dials_lazer_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_e4_t.002_baseColor.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_e4_t.002_baseColor.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_e4_t.002_normal.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_e4_t.002_normal.png
+  - type: 1
+    originalUri: Assets\space_shuttle_nasa\textures\sso_e4_t.002_specularf0.png
+    assetPath: Assets\space_shuttle_nasa\textures\sso_e4_t.002_specularf0.png
+  reportItems:
+  - type: 2
+    code: 20
+    messages:
+    - KHR_materials_specular

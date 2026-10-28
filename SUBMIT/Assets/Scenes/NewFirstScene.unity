@@ -38237,8 +38237,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.1
-  far clip plane: 5000
+  near clip plane: 0.01
+  far clip plane: 70
   field of view: 34.5
   orthographic: 0
   orthographic size: 10
@@ -38265,8 +38265,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 283915044}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.11923447, y: -0.0000000012751712, z: 1.5313684e-10, w: 0.99286616}
-  m_LocalPosition: {x: 551.9545, y: 3.5479999, z: 522.0383}
+  m_LocalRotation: {x: 0.058829736, y: 0.049253777, z: -0.0029061653, w: 0.997048}
+  m_LocalPosition: {x: 551.9545, y: 3.2528372, z: 522.0383}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -236083,8 +236083,8 @@ MonoBehaviour:
   Lens:
     FieldOfView: 34.5
     OrthographicSize: 10
-    NearClipPlane: 0.1
-    FarClipPlane: 5000
+    NearClipPlane: 0.01
+    FarClipPlane: 70
     Dutch: 0
     ModeOverride: 0
     PhysicalProperties:
@@ -236108,8 +236108,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1619444023}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.119234465, y: -0.0000000012892084, z: 2.700258e-10, w: 0.99286616}
-  m_LocalPosition: {x: 551.9545, y: 3.5479999, z: 522.0383}
+  m_LocalRotation: {x: 0.05882973, y: 0.049253765, z: -0.0029061642, w: 0.997048}
+  m_LocalPosition: {x: 551.9545, y: 3.2528372, z: 522.0383}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -236189,7 +236189,7 @@ MonoBehaviour:
       Size: {x: 0.8, y: 0.8}
       Offset: {x: 0, y: 0}
   CenterOnActivate: 1
-  TargetOffset: {x: 0, y: 0, z: 0}
+  TargetOffset: {x: 0.35357666, y: 0.1500082, z: 0}
   Damping: {x: 0.5, y: 0.5}
   Lookahead:
     Enabled: 0
@@ -236220,13 +236220,13 @@ MonoBehaviour:
   Orbits:
     Top:
       Radius: 1.62
-      Height: 2.12
+      Height: 2.1479082
     Center:
       Radius: 3.57
-      Height: 0.87
+      Height: 0.5748372
     Bottom:
       Radius: 1.3
-      Height: -1.58
+      Height: -1.3018134
     SplineCurvature: 1
   RecenteringTarget: 2
   HorizontalAxis:
@@ -236275,7 +236275,7 @@ MonoBehaviour:
   PivotOffset: {x: 0, y: 0, z: 0}
   AmplitudeGain: 1
   FrequencyGain: 0.5
-  m_NoiseOffsets: {x: 0, y: 0, z: 0}
+  m_NoiseOffsets: {x: 535.43616, y: -878.42444, z: 7.00531}
 --- !u!1 &1619454609
 GameObject:
   m_ObjectHideFlags: 0

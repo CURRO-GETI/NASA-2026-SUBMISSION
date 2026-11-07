@@ -220879,7 +220879,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -311869,7 +311869,7 @@ ReflectionProbe:
   m_Mode: 0
   m_RefreshMode: 1
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 2048
   m_UpdateFrequency: 0
   m_BoxSize: {x: 61.8172, y: 10, z: 61.32367}
   m_BoxOffset: {x: 1.2337341, y: 0, z: 0.986969}

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e67a408dfe2ddf64ba8c5a91a92f1636
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 274570
+  packageName: SAV Debug Console Quest
+  packageVersion: 1.4
+  assetPath: Assets/SAVDebugConsole/SAVFormattedInputField/Prefabs/SAVFormattedInputField.prefab
+  uploadId: 667588

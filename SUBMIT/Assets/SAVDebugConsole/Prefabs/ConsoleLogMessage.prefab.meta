@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: f2cdedd896a77164daf16430222a832d
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 274570
+  packageName: SAV Debug Console Quest
+  packageVersion: 1.4
+  assetPath: Assets/SAVDebugConsole/Prefabs/ConsoleLogMessage.prefab
+  uploadId: 667588

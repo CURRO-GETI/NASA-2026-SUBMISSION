@@ -33,12 +33,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Teeth
-    second: {fileID: -229877432113853365, guid: bc032cf2e0b9421479e8f30e25a9da43, type: 3}
+    second: {fileID: 1190345594517916363, guid: bc032cf2e0b9421479e8f30e25a9da43, type: 3}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Teeth.001
-    second: {fileID: 1190345594517916363, guid: bc032cf2e0b9421479e8f30e25a9da43, type: 3}
+    second: {fileID: -229877432113853365, guid: bc032cf2e0b9421479e8f30e25a9da43, type: 3}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -71,8 +71,8 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
-    importConstraints: 0
+    importAnimatedCustomProperties: 1
+    importConstraints: 1
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5

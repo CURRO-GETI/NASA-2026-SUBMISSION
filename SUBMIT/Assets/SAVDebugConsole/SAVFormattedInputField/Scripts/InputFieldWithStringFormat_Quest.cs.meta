@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e10f336362cc99345968e30e2538c67d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 274570
+  packageName: SAV Debug Console Quest
+  packageVersion: 1.4
+  assetPath: Assets/SAVDebugConsole/SAVFormattedInputField/Scripts/InputFieldWithStringFormat_Quest.cs
+  uploadId: 667588

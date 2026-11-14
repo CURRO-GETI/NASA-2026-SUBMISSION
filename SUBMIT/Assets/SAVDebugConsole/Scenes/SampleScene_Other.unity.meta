@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: e3565ce40c9ae014dba4e7ad8c94fe4a
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 274570
+  packageName: SAV Debug Console Quest
+  packageVersion: 1.4
+  assetPath: Assets/SAVDebugConsole/Scenes/SampleScene_Other.unity
+  uploadId: 667588

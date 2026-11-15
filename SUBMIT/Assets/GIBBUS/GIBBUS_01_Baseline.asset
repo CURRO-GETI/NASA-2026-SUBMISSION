@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 621bbe18c92dddb4bb4d756260318229, type: 3}
+  m_Name: GIBBUS_01_Baseline
+  m_EditorClassIdentifier: Assembly-CSharp::GIBBUS.MissionBaselineData
+  launchVehicleName: LV-2
+  launchVehicleCapacity: 32000
+  launchVehicleCost: 180
+  crewReturnSpacecraftMass: 9000
+  serviceModuleMass: 8500
+  lunarLanderMass: 9500
+  cameraMass: 100
+  spectrometerMass: 150
+  samplingKitMass: 200
+  seismometerMass: 100
+  dataStorageMass: 50
+  crewSuppliesMass: 1400
+  integrationHardwareMass: 1000
+  availablePower: 7.5
+  cameraPower: 1
+  spectrometerPower: 1.2
+  samplingKitPower: 0.6
+  seismometerPower: 0.8
+  dataStoragePower: 0.3
+  avionicsPower: 0.8
+  crewSupportPower: 0.9
+  communicationsPower: 0.4
+  usableBatteryEnergy: 18
+  criticalPowerDemand: 1.5
+  storageCapacity: 400
+  cameraData: 120
+  spectrometerData: 80
+  seismometerData: 40
+  telemetryData: 10
+  totalBudget: 500
+  spacecraftCost: 70
+  serviceModuleCost: 55
+  lunarLanderCost: 65
+  scienceEquipmentCost: 15
+  suppliesAndIntegrationCost: 10
+  missionOperationsCost: 25
+  sampleCapacity: 2
+  plannedSampleMass: 1.5

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36745f3fe5fe00243bc748b07ad539b5, type: 3}
+  m_Name: 01 - Define the Mission
+  m_EditorClassIdentifier: Assembly-CSharp::MissionDesignStage
+  stageTitle: DEFINE THE MISSION
+  stageSubtitle: Establish the scientific objectives, mission requirements and operational constraints of GIBBUS-01.
+  pages:
+  - heading: Mission Overview
+    description: Our mission is to send a crew of two astronauts to a carefully selected landing zone near the lunar South Pole.
+    image: {fileID: 0}
+  - heading: LANDING REGION
+    description: The landing zone will be a relatively illuminated, accessible area near the Malapert Massif region, rather than inside a permanently shadowed crater.
+    image: {fileID: 0}
+  - heading: SCIENTIFIC OBJECTIVES
+    description: 'The crew will:
+
+      1. Survey the surrounding lunar terrain.
+
+      2. Investigate the composition of lunar surface materials.
+
+      3. Collect and preserve geological samples.
+
+      4. Investigate the thermal and physical properties of the lunar regolith.
+
+      5. Deploy a scientific instrument to monitor lunar ground activity.
+
+      6. Use collected observations to improve our understanding of the South Pole environment.'
+    image: {fileID: 0}
+  - heading: PERMANENTLY SHADOWED REGIONS
+    description: The expedition will also investigate the scientific potential of nearby permanently shadowed regions using existing lunar survey data and observations from the accessible landing area.
+    image: {fileID: 0}
+  decisionPrompt: Which optional science objective should receive priority?
+  decisionKey: SCIENCE_PRIORITY
+  decisionOptions:
+  - optionID: DETAILED_ANALYSIS
+    optionName: Detailed Surface Analysis
+    description: Prioritise detailed investigation of lunar surface composition and regolith properties. This requires suitable analytical instruments and additional data-handling capacity.
+  - optionID: BROAD_SAMPLE_COLLECTION
+    optionName: Broader Sample Collection
+    description: Prioritise collecting a wider selection of geological samples. This requires additional sample storage capacity and careful management of the payload mass.

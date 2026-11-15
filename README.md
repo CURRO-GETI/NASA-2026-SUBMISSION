@@ -1,4 +1,4 @@
-# 🚀 GIBBOUS
+# GIBBOUS
 ### Design. Engineer. Explore.
 
 **An interactive space mission design and simulation experience.**

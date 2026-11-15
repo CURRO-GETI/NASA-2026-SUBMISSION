@@ -1,621 +1,475 @@
-# 🚀 GIBBUS
+# 🚀 GIBBOUS
 ### Design. Engineer. Explore.
 
 **An interactive space mission design and simulation experience.**
 
-GIBBUS is an educational space exploration game developed by **JETSTACK** for the 2026 NASA International Space Apps Challenge, under the *Space Mission Design Game* challenge.
+GIBBOUS is an educational space exploration and mission-design simulator developed by **JETSTACK** for the 2026 NASA International Space Apps Challenge, under the *Space Mission Design Game* challenge.
 
-The project aims to transform the complex process of designing a space mission into an interactive experience where players take responsibility for engineering decisions, scientific objectives, spacecraft configuration, resource management, and mission execution.
+The project transforms the complex process of designing a space mission into an interactive experience. Players take responsibility for engineering decisions, scientific objectives, spacecraft configuration, resource management, and mission planning.
 
-Rather than simply teaching players about space exploration, GIBBUS allows them to experience the decision-making processes behind it.
+Rather than simply teaching players about space exploration, GIBBOUS places them in the role of mission designers, allowing them to experiment with the decisions, constraints, and compromises involved in planning a space expedition.
+
+The project combines interactive simulation, aerospace engineering concepts, and NASA planetary-science resources to create an educational experience grounded in real scientific information.
 
 ---
 
 # 1. Project Overview
 
-Designing a successful space mission requires much more than building a spacecraft and launching it.
+Designing a successful space mission requires the coordination of numerous interconnected engineering systems.
 
-Every decision introduces constraints, compromises, and consequences. Increasing scientific payload mass affects spacecraft requirements. Selecting a launch vehicle influences mission capacity and budget. Power systems, propulsion, communications, orbital mechanics, and safety requirements must all work together.
+A spacecraft must satisfy mass, power, propulsion, communications, and operational requirements while remaining within the limitations of its launch vehicle and available resources.
 
-GIBBUS brings these interconnected engineering challenges into one interactive environment.
+Every engineering decision introduces consequences.
 
-Players take on the role of a mission designer, working through different stages of mission development to create a viable space expedition.
+Increasing scientific payload mass affects spacecraft requirements. Selecting a launch vehicle influences mission capacity. Propulsion requirements influence fuel allocation, while orbital conditions and environmental constraints affect mission planning.
 
-The initial campaign, **GIBBUS-01**, focuses on a lunar science expedition.
+GIBBOUS brings these interconnected challenges into one interactive environment.
 
-The objective is to design a mission capable of travelling from Earth to the Moon, conducting scientific operations, and safely returning to Earth.
+Players progress through a structured mission-design process, configuring the systems required to develop a viable space expedition.
+
+The initial campaign, **GIBBOUS-01**, focuses on a lunar science expedition.
+
+Its mission objective is to plan a journey from Earth to the Moon, conduct scientific operations, and safely return to Earth.
 
 # 2. Project Objectives
 
-GIBBUS aims to:
+GIBBOUS aims to:
 
 - Make aerospace engineering more accessible through interactive gameplay.
-- Introduce players to real-world spacecraft and mission design principles.
+- Introduce players to real-world spacecraft and mission-design principles.
 - Demonstrate the relationship between engineering decisions and mission success.
 - Encourage scientific curiosity and critical thinking.
 - Incorporate authentic NASA datasets and scientific information.
 - Provide an environment for experimenting with different mission architectures.
 - Demonstrate how mathematics, physics, computer science, and engineering work together in space exploration.
 
-# 3. Gameplay Concept
+# 3. Gameplay and Mission Design
 
-The experience follows the development and execution of a space mission.
+GIBBOUS follows the development of a space mission through a series of structured configuration and evaluation stages.
 
-Players progress through a structured mission-design process, making decisions that influence the feasibility and performance of their expedition.
+Players take on the role of mission designers, making decisions that influence the feasibility, performance, and scientific objectives of their expedition.
 
-## Mission Design Workflow
+## 3.1 Mission Design Workflow
 
-The intended mission-design workflow consists of nine stages:
+The mission-design framework consists of nine stages:
 
-1. **Mission Objectives** – Define the purpose, scientific goals, and requirements of the expedition.
-2. **Launch Vehicle Selection** – Select a launch system capable of delivering the mission payload.
-3. **Spacecraft Architecture** – Configure the spacecraft and determine how its components work together.
-4. **Scientific Payload** – Select scientific instruments and experiments.
-5. **Resource Management** – Balance mass, power, propulsion, and financial constraints.
-6. **Communications** – Establish communication requirements between the spacecraft and mission control.
-7. **Trajectory Design** – Consider orbital requirements and the spacecraft's journey.
-8. **Contingency Planning** – Account for potential mission complications and operational risks.
-9. **Mission Validation** – Evaluate the completed design and determine whether it is ready for execution.
+| Stage | Description |
+|---|---|
+| 01. Mission Objectives | Define the purpose, scientific goals, and requirements of the expedition. |
+| 02. Launch Vehicle Selection | Select an appropriate launch system based on mission requirements and payload capacity. |
+| 03. Spacecraft Architecture | Configure the spacecraft and determine how its components work together. |
+| 04. Scientific Payload | Select scientific instruments and experiments according to mission objectives. |
+| 05. Resource Management | Balance mass, power, propulsion, and financial constraints. |
+| 06. Communications | Establish communication requirements between the spacecraft and mission control. |
+| 07. Trajectory Design | Consider orbital requirements and the spacecraft's journey. |
+| 08. Contingency Planning | Consider potential complications, operational risks, and mission contingencies. |
+| 09. Mission Validation | Evaluate the completed design against the mission requirements. |
 
 Each stage contributes to the overall mission architecture.
 
-## Mission Execution
+The objective is to encourage players to understand that spacecraft engineering is a systems-level discipline in which individual decisions affect the entire mission.
 
-Following mission validation, the intended experience progresses into mission execution:
+## 3.2 Mission Execution
 
-- Launch preparation and liftoff.
-- Atmospheric ascent.
-- Orbital insertion.
-- Translunar journey.
-- Lunar approach and landing.
-- Scientific operations.
-- Lunar ascent and return journey.
-- Earth re-entry and mission completion.
-- Final mission evaluation.
+Following mission validation, the planned mission-execution experience covers:
 
-The player's engineering decisions influence the challenges and outcomes encountered throughout the mission.
+1. Launch preparation and liftoff.
+2. Atmospheric ascent.
+3. Orbital insertion.
+4. Translunar journey.
+5. Lunar approach and landing.
+6. Scientific operations.
+7. Lunar ascent and return journey.
+8. Earth re-entry.
+9. Mission completion and evaluation.
+
+The intended simulation connects mission-design decisions with the operational challenges encountered during the expedition.
 
 # 4. Engineering Systems
 
-GIBBUS focuses on interconnected engineering systems rather than treating spacecraft components as isolated selections.
+GIBBOUS focuses on interconnected engineering systems rather than treating spacecraft components as isolated selections.
 
-| System | Purpose |
+| Engineering System | Purpose |
 |---|---|
 | Launch Systems | Determine launch capabilities and payload capacity. |
 | Spacecraft Architecture | Define spacecraft configuration and modules. |
 | Scientific Payload | Provide instruments required for mission objectives. |
-| Mass Management | Ensure the spacecraft remains within mass constraints. |
+| Mass Management | Evaluate spacecraft mass against design constraints. |
 | Power Management | Account for electrical power requirements. |
 | Propulsion | Consider propulsion capabilities and fuel requirements. |
-| Communications | Establish spacecraft communication capabilities. |
+| Communications | Establish spacecraft communication requirements. |
 | Orbital Mechanics | Introduce orbital and trajectory considerations. |
 | Mission Budget | Manage financial limitations. |
-| Mission Safety | Evaluate risks and mission reliability. |
+| Mission Safety | Consider environmental and operational risks. |
 
-These systems interact.
+## 4.1 Engineering Trade-offs
 
-For example, selecting additional scientific instruments may improve the scientific value of a mission while increasing its mass and power requirements.
+The engineering systems are designed around the principle that individual decisions have interconnected consequences.
 
-This creates meaningful engineering trade-offs.
+For example:
 
-# 5. GIBBUS-01: Lunar Expedition
+- Increasing payload mass affects launch requirements.
+- Additional scientific instruments introduce power and mass requirements.
+- Propulsion requirements influence fuel allocation.
+- Landing-site selection introduces terrain, illumination, and environmental considerations.
+- Communication requirements influence spacecraft operations.
 
-GIBBUS-01 serves as the initial campaign and primary demonstration mission.
+These trade-offs form the foundation of GIBBOUS's mission-design experience.
 
-It focuses on a crewed expedition to the Moon, incorporating spacecraft configuration, lunar exploration, scientific research, and Earth return operations.
+# 5. GIBBOUS-01: Lunar Expedition
+
+GIBBOUS-01 is the initial campaign and primary demonstration mission.
+
+It focuses on a lunar expedition incorporating spacecraft configuration, lunar exploration, scientific research, and Earth return operations.
 
 The mission architecture is based on three principal spacecraft elements:
 
-- **Crew Return Spacecraft:** Provides the crew with a habitable vehicle for the journey and return.
-- **Service Module:** Supports essential spacecraft operations and propulsion requirements.
-- **Lunar Lander:** Enables the crew to travel between lunar orbit and the lunar surface.
+### Crew Return Spacecraft
 
-The player must ensure that the selected architecture can support the intended expedition.
+Provides the crew with a habitable vehicle for the journey and return to Earth.
 
-The campaign provides a practical context for exploring how spacecraft systems interact during a real-world-inspired mission.
+### Service Module
+
+Supports essential spacecraft operations, including propulsion and other supporting systems.
+
+### Lunar Lander
+
+Enables the crew to travel between lunar orbit and the lunar surface.
+
+The player must consider how these elements interact and whether the selected architecture can support the intended expedition.
+
+GIBBOUS-01 provides a practical context for exploring the engineering requirements of a lunar mission.
 
 # 6. NASA Data Integration
 
 ## 6.1 Overview
 
-One of the defining technical aspects of GIBBUS is its integration of publicly available scientific information and planetary datasets.
+One of the defining technical aspects of GIBBOUS is its use of real planetary-science information and NASA resources.
 
-Rather than relying entirely on fictional environments and arbitrary values, GIBBUS aims to incorporate information derived from actual space research and NASA missions.
+The project incorporates lunar imagery, geographical information, and surface-elevation information to provide a scientific foundation for its interactive lunar environment.
 
-These datasets provide scientific context for mission planning and can support interactive gameplay systems.
+Rather than relying entirely on fictional terrain, GIBBOUS uses NASA-derived information to support lunar exploration and landing-site evaluation.
 
-The primary data categories include:
+The principal scientific data categories include:
 
 - Lunar surface imagery and mapping.
 - Lunar surface elevation and topography.
-- Landing-site illumination.
-- Planetary and lunar orbital positions.
-- Earth satellite imagery.
-- Radiation measurements.
+- Lunar geographical features and landmarks.
+- Lunar landing-site characteristics.
+- Planetary and lunar orbital information.
+- Radiation and environmental considerations.
 - Scientific mission archives.
 
-The following services form the project's NASA and planetary-data integration reference.
+## 6.2 Lunar Surface Imagery and Mapping
 
----
+### NASA Moon Trek – Lunar Reconnaissance Orbiter Wide Angle Camera (LRO WAC)
 
-## 6.2 Moon Surface Imagery and Mapping
+**Provider:** NASA / Jet Propulsion Laboratory  
+**Service:** NASA Moon Trek  
+**Protocol:** Web Map Tile Service (WMTS)
 
-### A. NASA Moon Trek – WMTS
+NASA Moon Trek provides access to lunar imagery and scientific mapping resources.
 
-<text>**Service:** NASA Moon Trek</text>
+GIBBOUS uses lunar imagery to support its interactive three-dimensional Moon environment.
 
-<text>**Protocol:** Web Map Tile Service (WMTS)</text>
+**Official resource:**
 
-Moon Trek provides access to lunar imagery through map layers and tiled imagery services.
+https://trek.nasa.gov/moon/
 
-It is particularly useful for the interactive spherical Moon model in GIBBUS.
+**WMTS capabilities endpoint:**
 
-**Direct imagery endpoint:**
+https://trek.nasa.gov/tiles/Moon/EQ/LRO_WAC_Mosaic_Global_303ppd_v02/1.0.0/WMTSCapabilities.xml
 
-```text
-https://moontrek.jpl.nasa.gov/trektiles/Moon/EQ/LRO_WAC_Mosaic_Global_303ppd_v02/1.0.0/default/default028mm/0/0/0.jpg
-```
+**API documentation:**
 
-**GetCapabilities / available map layers:**
+https://trek.nasa.gov/tiles/apidoc/trekAPI.html?body=moon
 
-[Moon Trek WMTS API documentation](https://trek.nasa.gov/tiles/apidoc/trekAPI.html?body=moon)
+**Example imagery tile:**
 
-**Example lunar imagery tile:**
+https://trek.nasa.gov/tiles/Moon/EQ/LRO_WAC_Mosaic_Global_303ppd_v02/1.0.0/default/default028mm/0/0/0.jpg
 
-[View lunar imagery tile](https://trek.nasa.gov/tiles/Moon/EQ/LRO_WAC_Mosaic_Global_303ppd_v02/1.0.0/default/default028mm/0/0/0.jpg)
+**Data characteristics:**
+- Global lunar surface imagery.
+- LRO Wide Angle Camera mosaics.
+- Geographical surface information.
+- Tiled imagery at different zoom levels.
+- Multiple lunar mapping layers.
 
-**Data provided:**
-- Lunar surface imagery.
-- Global Moon mosaics.
-- Image tiles for mapping.
-- Multiple zoom levels.
-- Different lunar map layers.
+**Application in GIBBOUS:**
 
-**Application in GIBBUS:**
+The imagery provides the visual foundation for the interactive lunar globe.
 
-Moon Trek imagery can be used to construct a detailed lunar globe inside Unity.
+Players can explore the lunar surface and investigate geographical regions when considering potential landing destinations.
 
-Instead of relying on a single static image, the application can retrieve map tiles at different zoom levels, allowing players to inspect specific lunar regions.
+The use of tiled imagery also provides a pathway for more detailed regional visualisation.
 
-This is particularly useful when investigating potential landing destinations.
+## 6.3 Lunar Elevation and Topography
 
-### B. NASA Planetary Data System (PDS) – Search API
+### NASA Lunar Orbiter Laser Altimeter (LOLA)
 
-<text>**Service:** NASA Planetary Data System</text>
-
-<text>**Protocol:** REST API</text>
-
-The Planetary Data System is NASA's archive for planetary science data.
-
-It provides access to scientific products, mission archives, metadata, and references to planetary datasets.
-
-**Base endpoint:**
-
-```text
-https://pds.nasa.gov/api/search/1/
-```
-
-**Search for lunar scientific products:**
-
-```text
-https://pds.nasa.gov/api/search/1/products?limit=10&q=ref_lid_target%20eq%20%22urn%3Anasa%3Apds%3Acontext%3Atarget%3Asatellite.301%22
-```
-
-**General test request:**
-
-```text
-https://pds.nasa.gov/api/search/1/products?limit=10
-```
-
-**Documentation:**
-
-[PDS Search API documentation](https://nasa-pds.github.io/pds-api/guides/search/endpoints.html)
-
-**Data provided:**
-- Scientific product metadata.
-- Planetary mission archives.
-- Dataset references.
-- Scientific observations.
-- Links to downloadable data products.
-
-**Application in GIBBUS:**
-
-PDS can act as a scientific data discovery layer.
-
-It allows the project to identify relevant lunar datasets and retrieve references to the actual scientific files.
-
-An important distinction is that searching the archive does not necessarily retrieve the underlying imagery or measurements. Those products may need to be downloaded and processed separately.
-
----
-
-## 6.3 Lunar Elevation and Landing-Site Data
-
-### C. NASA LOLA – Lunar Orbiter Laser Altimeter
-
-<text>**Mission:** Lunar Reconnaissance Orbiter (LRO)</text>
-
-<text>**Instrument:** Lunar Orbiter Laser Altimeter (LOLA)</text>
-
-<text>**Data service:** PDS Geosciences Node Orbital Data Explorer (ODE)</text>
+**Mission:** Lunar Reconnaissance Orbiter  
+**Instrument:** Lunar Orbiter Laser Altimeter  
+**Archive:** NASA Planetary Data System Geosciences Node
 
 LOLA is a laser altimeter instrument aboard NASA's Lunar Reconnaissance Orbiter.
 
-Its measurements provide information about the Moon's surface elevation and topography.
+Its measurements provide scientific information about lunar surface elevation and topography.
 
-This is particularly important for evaluating potential landing destinations.
+**Dataset archive:**
 
-**Base endpoint:**
+https://pds-geosciences.wustl.edu/missions/lro/lola.htm
 
-```text
+**Orbital Data Explorer:**
+
+https://ode.rsl.wustl.edu/moon/
+
+**ODE REST endpoint:**
+
 https://oderest.rsl.wustl.edu/live2/
-```
 
-**Example REST request:**
+**Data characteristics:**
+- Lunar surface elevation.
+- Digital elevation models.
+- Topographical information.
+- Surface height measurements.
+- Geographical data products.
 
-```text
-https://oderest.rsl.wustl.edu/live2/?query=products&target=moon&ihid=LRO&iid=LOLA&pt=GDRDEM&output=json
-```
+**Application in GIBBOUS:**
 
-**Parameters:**
+Lunar elevation information supports the project's exploration of realistic lunar surface characteristics.
 
-| Parameter | Value | Purpose |
-|---|---|---|
-| query | products | Searches available products. |
-| target | moon | Specifies the Moon. |
-| ihid | LRO | Identifies the mission. |
-| iid | LOLA | Identifies the instrument. |
-| pt | GDRDEM | Requests gridded digital elevation products. |
-| output | json | Requests JSON output. |
+Processed elevation data can be represented as a heightmap and applied to a spherical terrain mesh within Unity.
 
-**Data provided:**
-- Lunar elevation products.
-- Digital elevation model references.
-- Product metadata.
-- Dataset download references.
+This provides a foundation for evaluating landing-site characteristics such as:
 
-**Application in GIBBUS:**
-
-LOLA elevation data can support a more realistic lunar terrain representation.
-
-A processed elevation dataset can be converted into a Unity-compatible heightmap and applied to a spherical terrain mesh.
-
-This creates the possibility of representing actual lunar surface elevation rather than displaying a purely flat texture.
-
-The resulting terrain information can help players evaluate landing-site characteristics such as:
 - Surface elevation.
-- Local terrain variation.
-- Slope and terrain suitability.
+- Terrain variation.
+- Slope.
 - Potential landing hazards.
 
-The original scientific dataset must be processed into an appropriate format before being used as a Unity terrain input.
+Scientific elevation products require appropriate processing and coordinate conversion before they can be used as Unity terrain inputs.
 
-### D. NASA Moon Trek – South Pole Illumination
+## 6.4 Lunar Landing-Site Evaluation
 
-<text>**Service:** NASA Moon Trek</text>
+Landing-site selection is an important part of GIBBOUS's lunar exploration experience.
 
-<text>**Dataset:** WAC South Pole Illumination</text>
+Rather than choosing a landing destination based solely on appearance, players are encouraged to consider scientific and environmental characteristics.
 
-Lunar illumination is an important consideration when planning missions to the lunar south pole.
+The evaluation framework considers factors including:
 
-Sunlight availability affects surface operations, thermal conditions, and the potential generation of solar power.
+- Surface geography.
+- Elevation.
+- Terrain suitability.
+- Lunar illumination.
+- Environmental conditions.
+- Mission requirements.
+- Orbital considerations.
+- Propulsion and fuel requirements.
 
-**Direct WMTS capabilities endpoint:**
+The purpose is to demonstrate that selecting a lunar landing location involves several interconnected scientific and engineering considerations.
 
-```text
+## 6.5 Lunar Illumination
+
+### NASA Moon Trek – South Pole Illumination
+
+**Provider:** NASA / JPL  
+**Service:** Moon Trek WMTS
+
+Lunar illumination is an important consideration when planning operations near the lunar south pole.
+
+Sunlight availability can influence surface operations, thermal conditions, and the feasibility of solar-powered equipment.
+
+**WMTS capabilities endpoint:**
+
 https://trek.nasa.gov/tiles/Moon/SP/WAC_POLE_ILL_PCT_SOUTH_100M/1.0.0/WMTSCapabilities.xml
-```
 
 **Dataset layer:**
 
-```text
 WAC_POLE_ILL_PCT_SOUTH_100M
-```
 
-**Related dataset:**
+**Application in GIBBOUS:**
 
-```text
-AVGVISIB_85S_060M_201608_EARTH_SP
-```
+Illumination information can support landing-site evaluation by providing context about sunlight availability.
 
-This related layer represents average Earth visibility near the lunar south pole.
+This introduces another engineering consideration when choosing an appropriate destination.
 
-**Data provided:**
-- Lunar south-pole illumination information.
-- Percentage-based illumination mapping.
-- Surface sunlight availability.
-- Earth visibility information for selected regions.
+## 6.6 Planetary Positions and Orbital Information
 
-**Application in GIBBUS:**
+### NASA JPL Horizons System
 
-Illumination data can contribute to landing-site evaluation.
+**Provider:** NASA Jet Propulsion Laboratory  
+**Service:** JPL Horizons API  
+**Protocol:** REST API
 
-For example, a region with greater sunlight availability may offer advantages for a mission relying on solar power.
-
-Earth visibility data can also help evaluate communication opportunities with Earth, although actual communications availability additionally depends on spacecraft position, antenna characteristics, and relay infrastructure.
-
-This creates another engineering trade-off when choosing a lunar landing location.
-
----
-
-## 6.4 Orbital Positions and Trajectories
-
-### E. NASA JPL Horizons API
-
-<text>**Service:** NASA Jet Propulsion Laboratory Horizons</text>
-
-<text>**Protocol:** REST API</text>
-
-JPL Horizons provides access to accurate astronomical and planetary ephemerides.
-
-It can calculate the positions and velocities of celestial bodies over specified time intervals.
+JPL Horizons provides astronomical ephemerides and information about the positions and velocities of celestial bodies.
 
 **Direct API endpoint:**
 
-```text
-https://ssd-api.jpl.nasa.gov/api/horizons.api
-```
-
-**Example request – Moon position relative to Earth:**
-
-```text
-https://ssd-api.jpl.nasa.gov/api/horizons.api?format=json&COMMAND='301'&OBJ_DATA='YES'&MAKE_EPHEM='YES'&EPHEM_TYPE='VECTORS'&CENTER='500@399'&START_TIME='2026-11-15'&STOP_TIME='2026-11-16'&STEP_SIZE='1%20h'&OUT_UNITS='KM-S'&VEC_TABLE='2'
-```
+https://ssd.jpl.nasa.gov/api/horizons.api
 
 **Documentation:**
 
-[JPL Horizons API parameter reference](https://ssd-api.jpl.nasa.gov/doc/horizons.html)
+https://ssd-api.jpl.nasa.gov/doc/horizons.html
 
-**Data provided:**
-- Celestial position vectors.
+**Data characteristics:**
+- Planetary positions.
+- Lunar positions.
 - Velocity vectors.
-- Time-dependent astronomical positions.
-- Orbital information.
-- Ephemeris data.
+- Time-dependent astronomical information.
+- Ephemeris calculations.
 
-**Application in GIBBUS:**
+**Application in GIBBOUS:**
 
-Horizons can supply real astronomical position data for the Moon and other celestial bodies.
+Astronomical position information provides a scientific reference for planetary and lunar orbital visualisation.
 
-This information can be used to support:
-- Earth-Moon positioning.
-- Mission departure planning.
-- Orbital visualisations.
-- Celestial body movement.
-- Trajectory planning inputs.
+It can support the representation of the Earth-Moon system and provide astronomical inputs for mission-planning calculations.
 
-For example, GIBBUS can use the Moon's position relative to Earth to provide more realistic orbital visualisations.
+Importantly, ephemeris information does not independently calculate a spacecraft's complete trajectory or fuel requirements. Those require additional propulsion and orbital-dynamics calculations.
 
-The retrieved data must be converted into the appropriate Unity coordinate system and reference frame.
+## 6.7 Radiation and Space Environment
 
-A further distinction is that ephemeris data provides celestial positions and velocities; it does not automatically generate a complete spacecraft trajectory or validate fuel requirements. Those calculations require additional mission dynamics and propulsion models.
+### NASA Lunar Reconnaissance Orbiter – CRaTER
 
----
+**Mission:** Lunar Reconnaissance Orbiter  
+**Instrument:** Cosmic Ray Telescope for the Effects of Radiation
 
-## 6.5 Earth Imagery and Satellite Observation
+CRaTER measures radiation in the lunar environment and contributes to scientific understanding of radiation exposure during space exploration.
 
-### F. NASA Global Imagery Browse Services (GIBS)
+**Scientific data portal:**
 
-<text>**Service:** NASA Global Imagery Browse Services</text>
+https://crater-web.sr.unh.edu/
 
-<text>**Protocol:** WMTS</text>
+**Application in GIBBOUS:**
 
-NASA GIBS provides access to global satellite imagery and Earth observation visualisations.
+Radiation is an important consideration for crewed space missions.
 
-It allows applications to retrieve imagery from different satellite instruments and observation dates.
+The scientific information provides context for evaluating radiation exposure and the importance of spacecraft protection.
 
-**Base endpoint:**
+It also creates opportunities to introduce radiation shielding and crew safety as engineering considerations.
 
-```text
-https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/
-```
+CRaTER scientific products are archived datasets and require interpretation and processing before they can be used in a simulation.
 
-**GetCapabilities endpoint:**
+## 6.8 Scientific Data Discovery
 
-```text
-https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi?SERVICE=WMTS&REQUEST=GetCapabilities&VERSION=1.0.0
-```
+### NASA Planetary Data System (PDS)
 
-**Example MODIS Terra imagery tile:**
+**Provider:** NASA  
+**Service:** PDS Search API  
+**Protocol:** REST API
 
-```text
-https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/MODIS_Terra_CorrectedReflectance_TrueColor/default/2026-11-14/250m/3/2/3.jpg
-```
+The Planetary Data System provides access to scientific planetary datasets and mission archives.
+
+**API endpoint:**
+
+https://pds.nasa.gov/api/search/1/
 
 **Documentation:**
 
-[NASA GIBS API documentation](https://nasa-gibs.github.io/gibs-api-docs/access-basics/)
+https://nasa-pds.github.io/pds-api/guides/search/endpoints.html
 
-**Data provided:**
-- Satellite-derived Earth imagery.
-- Atmospheric visualisations.
-- Environmental observations.
-- Cloud and surface observations.
-- Time-specific imagery layers.
+**Application in GIBBOUS:**
 
-**Application in GIBBUS:**
+PDS provides a scientific data-discovery resource for identifying relevant planetary datasets, retrieving metadata, and locating archived scientific products.
 
-GIBS can provide Earth imagery for the game's planetary visualisation systems.
+It is particularly useful when expanding the range of scientific information available to the project.
 
-It can be used to display satellite-derived Earth imagery and potentially illustrate environmental conditions during different stages of the mission.
+PDS is an archive discovery and access system, not a direct source of continuously updated lunar imagery.
 
-This is particularly relevant to visualising Earth during orbital operations and atmospheric return sequences.
+# 7. Scientific Data and Simulation Architecture
 
-### G. NASA Satellite Situation Center (SSCWeb)
+GIBBOUS uses a modular approach to separating scientific data retrieval, processing, and gameplay systems.
 
-<text>**Service:** NASA Satellite Situation Center</text>
-
-<text>**Platform:** SSCWeb</text>
-
-SSCWeb provides tools and information relating to spacecraft locations and scientific observations in the context of Earth's space environment.
-
-**Official website:**
-
-[NASA Satellite Situation Center](https://sscweb.gsfc.nasa.gov/)
-
-**Application in GIBBUS:**
-
-SSCWeb may be useful when researching spacecraft positions and geophysical context for scientific satellite observations.
-
-It is important to distinguish this service from a general-purpose live satellite tracker.
-
-It should not be treated as a universal API for retrieving the current position of every Earth-orbiting satellite.
-
-For other satellite-tracking requirements, additional orbital data sources may be necessary.
-
----
-
-## 6.6 Radiation Measurements
-
-### H. NASA LRO CRaTER
-
-<text>**Mission:** Lunar Reconnaissance Orbiter</text>
-
-<text>**Instrument:** Cosmic Ray Telescope for the Effects of Radiation (CRaTER)</text>
-
-CRaTER is a scientific instrument aboard the Lunar Reconnaissance Orbiter.
-
-It measures radiation in the lunar environment and helps scientists understand the radiation exposure associated with space exploration.
-
-**Data portal:**
-
-[CRaTER Data Products](https://crater-web.sr.unh.edu/)
-
-**NASA archive:**
-
-[Planetary Data System](https://pds.nasa.gov/)
-
-**Data provided:**
-- Radiation dose rates.
-- Dose equivalent measurements.
-- Cosmic-ray measurements.
-- Lunar radiation environment observations.
-
-**Application in GIBBUS:**
-
-Radiation information can contribute to mission safety and crew exposure considerations.
-
-It provides an opportunity to introduce radiation as an engineering constraint when designing a crewed lunar expedition.
-
-For example, players could evaluate the importance of radiation protection and spacecraft shielding.
-
-CRaTER is a scientific data archive rather than a conventional live REST API. Its products may need to be downloaded, interpreted, and processed before being incorporated into the game.
-
----
-
-# 7. NASA API and Data Source Reference
-
-The following table summarises the principal services identified for GIBBUS.
-
-| Service | Direct endpoint | Primary application |
-|---|---|---|
-| Moon Trek WMTS | [Moon Trek](https://trek.nasa.gov/tiles/apidoc/trekAPI.html?body=moon) | Lunar surface imagery |
-| PDS Search API | [PDS API](https://pds.nasa.gov/api/search/1/) | Scientific datasets |
-| LOLA ODE | [ODE REST](https://oderest.rsl.wustl.edu/live2/) | Lunar elevation |
-| Moon Trek Illumination | [WMTS Layer](https://trek.nasa.gov/tiles/Moon/SP/WAC_POLE_ILL_PCT_SOUTH_100M/1.0.0/WMTSCapabilities.xml) | Landing-site sunlight |
-| JPL Horizons | [Horizons API](https://ssd-api.jpl.nasa.gov/api/horizons.api) | Orbital positions |
-| NASA GIBS | [GIBS WMTS](https://gibs.earthdata.nasa.gov/wmts/epsg4326/best/wmts.cgi) | Earth imagery |
-| NASA SSCWeb | [SSCWeb](https://sscweb.gsfc.nasa.gov/) | Spacecraft location context |
-| LRO CRaTER | [CRaTER Portal](https://crater-web.sr.unh.edu/) | Radiation measurements |
-
-**Technical note:** These services have different delivery mechanisms. Some expose REST endpoints, others use WMTS, and some distribute downloadable scientific archive products. They should not all be treated as interchangeable live APIs.
-
-# 8. Proposed Scientific Data Integration Architecture
-
-To make these services usable within Unity, GIBBUS can use a modular data architecture.
-
-The general data flow is:
+The intended architecture follows this structure:
 
 ```text
-        NASA DATA SOURCES
-                |
-                |
-    +-----------+-----------+
-    |           |           |
- Moon Trek    JPL        PDS / ODE
-    |        Horizons       |
-    |           |           |
-    +-----------+-----------+
-                |
-                |
-       DATA RETRIEVAL LAYER
-                |
-                |
-       DATA PROCESSING LAYER
-                |
-                |
-        UNITY DATA SYSTEMS
-                |
-       +--------+--------+
-       |        |        |
-     Moon    Mission   Landing
-     Globe   Planning   Analysis
-       |        |        |
-       +--------+--------+
-                |
-                |
-        PLAYER EXPERIENCE
+             NASA DATA SOURCES
+                     |
+          +----------+----------+
+          |          |          |
+       Moon Trek   JPL        PDS / ODE
+          |       Horizons       |
+          |          |          |
+          +----------+----------+
+                     |
+                     |
+             DATA RETRIEVAL
+                     |
+                     |
+             DATA PROCESSING
+                     |
+          +----------+----------+
+          |          |          |
+       Imagery   Elevation   Ephemerides
+          |          |          |
+          +----------+----------+
+                     |
+                     |
+              UNITY SYSTEMS
+                     |
+          +----------+----------+
+          |          |          |
+       Moon Globe  Mission   Landing-Site
+                  Planning    Evaluation
+          |          |          |
+          +----------+----------+
+                     |
+                     |
+              PLAYER EXPERIENCE
 ```
 
-## 8.1 Data Retrieval
+## 7.1 Data Retrieval
 
-Individual services are accessed through dedicated integration components.
+Dedicated integration components are responsible for communicating with external services.
 
-Examples include:
+Potential component responsibilities include:
 
-- `MoonTrekService`
-- `LOLADataService`
-- `HorizonsService`
-- `GIBSService`
-- `PDSDataService`
-- `CRaTERDataService`
+- Moon imagery retrieval.
+- Lunar elevation retrieval.
+- Scientific dataset discovery.
+- Astronomical ephemeris retrieval.
+- Environmental data retrieval.
 
-Each component is responsible for retrieving information from its respective source.
+## 7.2 Data Processing
 
-## 8.2 Data Processing
+Scientific information is not always immediately compatible with Unity.
 
-Raw scientific information is not always immediately usable by Unity.
-
-Depending on the source, processing may involve:
+Depending on the source, processing can involve:
 
 - JSON deserialization.
 - Image tile retrieval.
 - Heightmap conversion.
-- Coordinate transformation.
+- Coordinate transformations.
 - Unit conversion.
 - Data interpolation.
-- Caching and local storage.
+- Local caching.
 
-## 8.3 Unity Integration
+## 7.3 Unity Integration
 
-Processed information can then be supplied to the relevant game systems.
+Processed scientific information can then be supplied to the relevant gameplay systems.
 
-For example:
-
-| Unity System | Relevant Data |
+| Unity System | Scientific Information |
 |---|---|
-| Lunar Globe | Moon Trek imagery |
-| Lunar Terrain | LOLA elevation |
-| Landing-Site Analysis | LOLA and illumination data |
-| Orbital Visualisation | JPL Horizons |
-| Earth Visualisation | NASA GIBS |
-| Mission Safety | CRaTER measurements |
-| Scientific Research | PDS archives |
+| Lunar Globe | NASA lunar imagery |
+| Lunar Terrain | Elevation and topography |
+| Landing-Site Evaluation | Geography and terrain information |
+| Orbital Visualisation | Astronomical ephemerides |
+| Mission Planning | Scientific and engineering constraints |
+| Mission Safety | Radiation and environmental information |
 
-The architecture is intended to keep external data retrieval separate from gameplay logic.
+An important design principle is the distinction between observed scientific information, derived calculations, and simulated gameplay values.
 
-This makes individual integrations easier to maintain, replace, and expand.
+This helps maintain scientific transparency while allowing the game to remain accessible.
 
-# 9. Technology Stack
+# 8. Technology Stack
 
-GIBBUS is being developed using the following technologies:
+GIBBOUS is developed using the following technologies:
 
 | Technology | Application |
 |---|---|
-| Unity | Primary game engine |
+| Unity 6 | Primary game engine |
 | C# | Gameplay programming and simulation systems |
 | Unity UI | Interactive mission-design interfaces |
-| NASA Open Data | Scientific and mission-related information |
-| REST APIs | Integration of externally hosted datasets |
+| REST APIs | External scientific data integration |
 | WMTS | Retrieval of tiled planetary imagery |
 | JSON | Structured scientific data |
 | Git | Version control |
@@ -623,19 +477,20 @@ GIBBUS is being developed using the following technologies:
 
 **Target platform:** Windows PC.
 
-The development prioritises modular systems, reusable components, and a structured architecture that can support future expansion.
+The project prioritises modular development, reusable components, and a structured architecture that can support future expansion.
 
-# 10. User Interface
+# 9. User Interface and Navigation
 
-The mission-design environment is organised into structured stages.
+The mission-design environment is organised into structured configuration stages.
 
-The current interface architecture includes:
+The interface architecture includes:
 
 - Stage headers displaying the current stage number, title, and description.
-- A navigation panel for switching between configuration sections.
+- Navigation panels for accessing different configuration sections.
 - Dedicated content panels for individual engineering systems.
 - Previous and Next navigation controls.
-- A progress indicator.
+- Mission progression indicators.
+- Interactive configuration elements.
 
 The Stage 02 configuration interface is organised around five principal sections:
 
@@ -645,11 +500,11 @@ The Stage 02 configuration interface is organised around five principal sections
 4. Engineering Budget.
 5. Mission Approval.
 
-The interface is intended to make complex engineering information understandable without removing the underlying technical considerations.
+The interface aims to make complex engineering information understandable without removing the underlying technical considerations.
 
-# 11. Educational Value
+# 10. Educational Value
 
-GIBBUS demonstrates that space exploration is fundamentally an interdisciplinary engineering challenge.
+GIBBOUS demonstrates that space exploration is fundamentally an interdisciplinary engineering challenge.
 
 Through its gameplay, players encounter concepts from:
 
@@ -662,85 +517,101 @@ Through its gameplay, players encounter concepts from:
 - Scientific research.
 - Resource and project management.
 
-Instead of presenting these subjects as disconnected topics, the game connects them through a single mission.
+Instead of presenting these subjects as disconnected topics, GIBBOUS connects them through a single mission.
 
-Players learn by making decisions, examining their consequences, and improving their designs.
+Players learn by making engineering decisions, examining their consequences, and improving their designs.
 
-# 12. Development Roadmap
+# 11. Development Approach
 
-The project follows a modular development approach.
+GIBBOUS follows a modular development approach, allowing individual mission systems to be developed and tested independently.
 
-| Development Phase | Main Focus |
+The development priorities include:
+
+| Development Area | Focus |
 |---|---|
-| Phase 1 | Mission-design interface and navigation |
-| Phase 2 | Launch system and spacecraft configuration |
-| Phase 3 | Scientific payload and engineering calculations |
-| Phase 4 | Mission validation and resource management |
-| Phase 5 | NASA data integration |
-| Phase 6 | Mission simulation and execution |
-| Phase 7 | Testing, optimisation, and presentation |
+| Mission Interface | Configuration stages and navigation |
+| Launch Systems | Launch vehicle selection |
+| Spacecraft Architecture | Spacecraft configuration |
+| Scientific Payload | Instrument selection |
+| Engineering Systems | Resource and constraint management |
+| NASA Data Integration | Scientific data retrieval and visualisation |
+| Mission Validation | Evaluation of mission requirements |
+| Mission Simulation | Visualisation of mission execution |
+| Testing and Optimisation | Stability and performance |
 
-The initial development priority is a functional mission-design experience, establishing the foundation for more advanced simulation features.
+The project is designed to support additional mission campaigns and scientific integrations as development progresses.
 
-# 13. Vision
+# 12. Future Development
 
-GIBBUS is built around a simple idea:
+The long-term vision for GIBBOUS is to develop an expandable educational space-mission simulation environment.
 
-**Understanding space exploration should involve more than observing it. People should be able to experiment with the engineering decisions that make it possible.**
+Potential future additions include:
 
-The long-term vision is to develop GIBBUS into an expandable educational space-mission simulation environment.
+- Additional planetary exploration campaigns.
+- More detailed orbital mechanics.
+- Advanced spacecraft propulsion modelling.
+- Expanded lunar terrain visualisation.
+- More scientific payload options.
+- Improved mission risk analysis.
+- More detailed spacecraft subsystems.
+- Additional planetary datasets.
+- Expanded mission execution and evaluation systems.
 
-Future campaigns could explore different mission architectures, scientific objectives, destinations, and engineering challenges.
+These additions would extend the project beyond its initial lunar expedition.
 
-The project is intended to grow beyond a single lunar expedition into a platform for learning about the systems and decisions involved in humanity's exploration of space.
-
-# 14. Project Information
+# 13. Project Information
 
 | Detail | Information |
 |---|---|
-| Project | GIBBUS |
-| Initial Campaign | GIBBUS-01 |
-| Competition | NASA International Space Apps Challenge 2026 |
+| Project Name | GIBBOUS |
+| Initial Campaign | GIBBOUS-01 |
+| Organisation | JETSTACK |
+| Competition | 2026 NASA International Space Apps Challenge |
 | Challenge | Space Mission Design Game |
-| Development Team | JETSTACK |
 | Genre | Educational / Simulation / Space Exploration |
-| Engine | Unity |
+| Game Engine | Unity 6 |
 | Programming Language | C# |
-| Platform | Windows PC |
+| Target Platform | Windows PC |
 
----
+# 14. Acknowledgements and Data Attribution
 
-# 15. Acknowledgements and Data Attribution
+GIBBOUS acknowledges the scientific institutions, researchers, and space missions responsible for making planetary research and scientific information publicly accessible.
 
-GIBBUS acknowledges the scientific institutions and missions responsible for making planetary research and space-science information publicly accessible.
+Key resources include:
 
-Key data providers and missions include:
-
-- NASA Jet Propulsion Laboratory (JPL).
-- NASA Lunar Reconnaissance Orbiter (LRO).
-- Lunar Orbiter Laser Altimeter (LOLA).
-- NASA Planetary Data System (PDS).
+- NASA Jet Propulsion Laboratory.
+- NASA Lunar Reconnaissance Orbiter.
+- Lunar Orbiter Laser Altimeter.
+- NASA Planetary Data System.
 - NASA Moon Trek.
-- NASA Global Imagery Browse Services (GIBS).
-- NASA Satellite Situation Center.
-- Cosmic Ray Telescope for the Effects of Radiation (CRaTER).
-- Washington University in St. Louis PDS Geosciences Node.
+- JPL Horizons.
+- NASA Cosmic Ray Telescope for the Effects of Radiation.
 
-Individual datasets and imagery should be attributed according to their respective provider's acknowledgement and usage requirements.
+Individual scientific datasets and imagery should be attributed according to their respective providers' acknowledgement and usage requirements.
 
----
+# 15. Super Intelligence and Development Assistance
 
-# 16. Important Development Disclaimer
+Super Intelligence tools were used as development assistance during the creation of GIBBOUS.
 
-GIBBUS is a work in progress.
+Their use included programming assistance, debugging support, technical research, documentation, and refinement of written project materials.
 
-The presence of a service in this documentation indicates that it has been identified as a relevant data source for the project. It does not necessarily mean that the service has already been integrated into the current build.
+AI-assisted suggestions and code were reviewed and adapted by the development team.
 
-Similarly, proposed simulation features are not representations of completed functionality unless demonstrated in the current version.
+The project concept, engineering decisions, implementation direction, and final development work were managed by the team.
 
-Scientific datasets may require additional processing, validation, coordinate conversion, and interpretation before they can be used in gameplay.
+Any AI-generated imagery, video, audio, or other assets included in the final project should be identified in accordance with the NASA Space Apps Challenge disclosure requirements.
 
-GIBBUS aims to distinguish authentic scientific information from simulated values and game-design assumptions.
+# 16. Development Disclaimer
+
+GIBBOUS is an educational simulation and is not an operational spacecraft-design or mission-certification system.
+
+Scientific datasets, astronomical observations, derived calculations, and simulated gameplay values serve different purposes and should not be interpreted as interchangeable.
+
+External datasets may require processing, validation, coordinate conversion, and interpretation before integration into the game.
+
+Not every service documented in this README necessarily represents an active integration in the current build. Some resources are included as scientific references or potential future integrations.
+
+Mission outcomes and engineering calculations are intended for educational simulation rather than operational spaceflight planning.
 
 ---
 

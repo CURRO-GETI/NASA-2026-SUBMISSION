@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+				<meta name="color-scheme" content="dark">
+					<title>GIBBUS // Launch Operations</title>
+					<link rel="stylesheet" href="launch.css">
+						<script src="launch.js" defer=""></script>
+					</head>
+	<body>
+		<div class="screen">
+			<header class="topbar glass">
+				<div class="brand">
+					<div class="brand-mark">G</div>
+					<div>
+						<span class="eyebrow">JETSTACK SPACE SYSTEMS</span>
+						<strong>
+							GIBBUS<span class="code"> / 01</span>
+						</strong>
+					</div>
+				</div>
+				<div class="mission-heading">
+					<span class="eyebrow">MISSION OPERATIONS</span>
+					<strong>CREWED LUNAR SCIENCE EXPEDITION</strong>
+				</div>
+				<div class="top-status">
+					<div class="status-pill">
+						<span class="live-dot"></span>
+						<span id="connection-label">CONNECTING TO UNITY</span>
+					</div>
+					<span class="top-divider"></span>
+					<div class="status-phase">
+						<span class="eyebrow">MISSION PHASE</span>
+						<strong id="phase-label">PRE-LAUNCH</strong>
+					</div>
+				</div>
+			</header>
+
+			<main class="main-grid">
+				<aside class="left-column">
+					<section class="panel glass checklist-panel">
+						<div class="panel-head">
+							<div>
+								<span class="eyebrow">01 / FLIGHT READINESS</span>
+								<h2>Pre-launch checklist</h2>
+							</div>
+							<span class="counter" id="check-counter">0 / 6</span>
+						</div>
+						<p class="subtle">Review each system and acknowledge its readiness before requesting launch authorisation.</p>
+						<div class="progress-track">
+							<span id="check-progress"></span>
+						</div>
+						<div id="checklist" class="checklist">
+							<div class="loading">Waiting for mission data…</div>
+						</div>
+						<div class="checklist-foot">
+							<span class="status-square amber"></span>
+							<span>Operator acknowledgement required</span>
+						</div>
+					</section>
+
+					<section class="panel glass mission-panel">
+						<span class="eyebrow">MISSION PROFILE</span>
+						<h3 id="mission-code">GIBBUS-01</h3>
+						<p id="mission-objective">Investigate a selected lunar region, deploy scientific instruments, recover geological samples and return the crew safely to Earth.</p>
+						<div class="profile-row">
+							<span>DESTINATION</span>
+							<strong>THE MOON</strong>
+						</div>
+						<div class="profile-row">
+							<span>CREW</span>
+							<strong>2 ASTRONAUTS</strong>
+						</div>
+						<div class="profile-row">
+							<span>LANDING REGION</span>
+							<strong>SOUTH POLAR REGION</strong>
+						</div>
+					</section>
+				</aside>
+
+				<section class="centre-column">
+					<div class="viewport-label">
+						<span class="live-dot"></span> LAUNCH VEHICLE VISUAL // UNITY RENDER
+					</div>
+					<div class="centre-spacer"></div>
+					<section class="launch-card glass">
+						<div class="launch-card-top">
+							<div>
+								<span class="eyebrow">FLIGHT DIRECTOR CONSOLE</span>
+								<h1 id="launch-state">SYSTEMS REVIEW</h1>
+							</div>
+							<div class="readiness-ring" id="readiness-ring">
+								<span id="readiness-percent">0%</span>
+								<small>READY</small>
+							</div>
+						</div>
+						<p id="launch-message">Complete the pre-launch review. Each acknowledgement is recorded by the mission interface.</p>
+						<div class="launch-divider"></div>
+						<div class="launch-actions">
+							<button class="button primary" id="authorize-button" disabled="">
+								AUTHORISE LAUNCH <span>↗</span>
+							</button>
+							<button class="button secondary" id="abort-button">RETURN TO MISSION DESIGN</button>
+						</div>
+						<p class="micro-note" id="authorization-note">Launch authorisation remains locked until all checklist items are acknowledged.</p>
+					</section>
+				</section>
+
+				<aside class="right-column">
+					<section class="panel glass telemetry-panel">
+						<div class="panel-head">
+							<div>
+								<span class="eyebrow">02 / VEHICLE STATUS</span>
+								<h2>Telemetry</h2>
+							</div>
+							<span class="sim-tag">SIMULATION</span>
+						</div>
+						<div class="telemetry-grid">
+							<div class="metric">
+								<span>ALTITUDE</span>
+								<strong id="altitude">
+									0.0 <small>km</small>
+								</strong>
+								<div class="metric-line">
+									<i id="altitude-bar"></i>
+								</div>
+							</div>
+							<div class="metric">
+								<span>VELOCITY</span>
+								<strong id="velocity">
+									0.00 <small>km/s</small>
+								</strong>
+								<div class="metric-line">
+									<i id="velocity-bar"></i>
+								</div>
+							</div>
+							<div class="metric">
+								<span>PROPELLANT</span>
+								<strong id="fuel">
+									100 <small>%</small>
+								</strong>
+								<div class="metric-line">
+									<i id="fuel-bar"></i>
+								</div>
+							</div>
+							<div class="metric">
+								<span>SPACECRAFT POWER</span>
+								<strong id="power">
+									100 <small>%</small>
+								</strong>
+								<div class="metric-line">
+									<i id="power-bar"></i>
+								</div>
+							</div>
+						</div>
+						<div class="telemetry-status">
+							<span>COMMUNICATIONS</span>
+							<strong id="comms">STANDBY</strong>
+						</div>
+						<div class="telemetry-status">
+							<span>FLIGHT PROFILE</span>
+							<strong id="trajectory">EARTH → LUNAR TRANSFER</strong>
+						</div>
+						<div class="telemetry-status">
+							<span>COUNTDOWN</span>
+							<strong id="countdown">T − --:--</strong>
+						</div>
+					</section>
+
+					<section class="panel glass systems-panel">
+						<span class="eyebrow">03 / GROUND OPERATIONS</span>
+						<h2>Mission control</h2>
+						<div class="control-row">
+							<span class="control-icon">01</span>
+							<div>
+								<strong>FLIGHT DIRECTOR</strong>
+								<small id="director-status">Awaiting system review</small>
+							</div>
+							<b class="status-text amber-text" id="director-indicator">STANDBY</b>
+						</div>
+						<div class="control-row">
+							<span class="control-icon">02</span>
+							<div>
+								<strong>LAUNCH CONTROL</strong>
+								<small id="launch-control-status">Awaiting authorisation</small>
+							</div>
+							<b class="status-text amber-text" id="launch-indicator">HOLD</b>
+						</div>
+						<div class="control-row">
+							<span class="control-icon">03</span>
+							<div>
+								<strong>MISSION NETWORK</strong>
+								<small>Local interface connection</small>
+							</div>
+							<b class="status-text green-text" id="network-indicator">LOCAL</b>
+						</div>
+					</section>
+
+					<section class="panel glass staging-panel">
+						<span class="eyebrow">04 / ASCENT OPERATIONS</span>
+						<h2>Stage separation</h2>
+						<p class="subtle">Operator-controlled spacecraft configuration.</p>
+
+						<button class="button secondary stage-button" data-stage="boosters">
+							SEPARATE BOOSTERS
+						</button>
+
+						<button class="button secondary stage-button" data-stage="upper-stage">
+							SEPARATE UPPER STAGE
+						</button>
+
+						<button class="button primary stage-button" data-stage="spacecraft-cover">
+							RELEASE SPACECRAFT
+						</button>
+
+						<p class="micro-note" id="stage-status">Awaiting separation command.</p>
+					</section>
+				</aside>
+			</main>
+
+			<footer class="bottom-bar glass">
+				<div class="event-log">
+					<span class="eyebrow">MISSION EVENT LOG</span>
+					<div id="event-log">
+						<p>
+							<time>00:00</time> Interface initialising. Waiting for Unity connection.
+						</p>
+					</div>
+				</div>
+				<div class="footer-right">
+					<span class="signal-bars">
+						<i></i>
+						<i></i>
+						<i></i>
+						<i></i>
+					</span>
+					<span class="footer-label">GIBBUS FLIGHT OPERATIONS</span>
+					<span class="footer-separator"></span>
+					<span id="clock">LOCAL TIME</span>
+				</div>
+			</footer>
+
+			<div id="toast" class="toast" role="status" aria-live="polite" hidden=""></div>
+			<div id="confirm-overlay" class="confirm-overlay" hidden="">
+				<div class="confirm-box glass">
+					<span class="eyebrow">FLIGHT DIRECTOR CONFIRMATION</span>
+					<h2>Request launch authorisation?</h2>
+					<p>This sends the authorisation request to Unity. The actual countdown and vehicle sequence remain controlled by the game.</p>
+					<div class="confirm-actions">
+						<button id="confirm-cancel" class="button secondary">CANCEL</button>
+						<button id="confirm-yes" class="button primary">CONFIRM REQUEST</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

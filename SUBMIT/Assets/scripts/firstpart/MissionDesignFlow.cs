@@ -278,14 +278,16 @@ public class MissionDesignFlow : MonoBehaviour
         ShowStage();
     }
 
+    public SceneController controller;
     private void CompleteMissionDesign()
     {
         designPanel.SetActive(false);
 
         if (completionPanel != null)
             completionPanel.SetActive(true);
-
+        SceneController.Instance.LoadSceneAsync("Second");
         Debug.Log("GIBBUS: Mission design stages completed.");
+        
     }
 
     private void UpdateStageCounter()
